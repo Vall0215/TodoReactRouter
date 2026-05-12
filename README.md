@@ -1,24 +1,38 @@
-# React + Vite
+<h1 align="center">📃 Task Manager App ☑️</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+<p align="left">
+Interactive task management application developed with React and React Router.
+This project was created to practice component-based architecture, client-side routing, state management, and modern UI design principles.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💠 Features
 
-## React Compiler
+* Dynamic task creation
+* Task deletion functionality
+* Automatic input reset after saving
+* Navigation using React Router
+* Responsive and modern interface
+* CSS animations and visual improvements
+* Organized project structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💠 Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* React Router DOM
+* JavaScript
+* CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💠 Installation and Execution
 
+Clone the repository and install dependencies:
 
-## start
-
-```bash
-npm i
+```bash id="z8q4n2"
+npm install
+```
+Run the development server:
+```bash id="v1m7x5"
 npm run dev
 ```
