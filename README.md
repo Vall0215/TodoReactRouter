@@ -3,7 +3,7 @@
 ---
 
 <p align="left">
-Modern productivity web application built with React Router to organize ideas, tasks, and daily activities in a clean and interactive way.
+Modern productivity web application built with React Router to organize ideas, tasks, and daily activities in a clean and interactive way. The concept of “Brain Dump” represents the process of clearing your mind by quickly capturing thoughts, reminders, and tasks in one place, transforming mental clutter into an organized and dynamic workflow.
 </p>
 
 ## 🌀  Features
