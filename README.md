@@ -25,9 +25,10 @@ This project was created to practice component-based architecture, client-side r
 * JavaScript
 * CSS3
 
-## 💠 Installation and Execution
 
-Clone the repository and install dependencies:
+## 💠 Live Demo
+
+https://vall0215.github.io/TodoReactRouter/
 
 ```bash id="z8q4n2"
 npm install
