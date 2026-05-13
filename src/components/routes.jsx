@@ -13,11 +13,11 @@ export const childrenRouterList = [
     {
         path: "login",
         Component: Ejemplo,
-        text: "Ejemplo"
+        text: "Functions"
     },
     {
         path: "Valery" ,
         Component: Valeryhernandez ,
-        text: "Valery HM"
+        text: "Brain Dump"
     }
 ]

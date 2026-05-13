@@ -1,14 +1,38 @@
-import React from 'react'
-
 const Home = () => {
-  return (
-    <div>
-      <h1>Bienvenidos!</h1>
-      <p>
-        En este proyecto vamos a crear un todo y vamos a ponerlo en una ruta diferente para luego juntarlos todos en un mismo proyecto!
-      </p>
-    </div>
-  )
-}
+    return (
+        <section className="home-page">
+            <div className="home-card">
+                <span className="todo-badge">Frontend Project</span>
 
-export default Home
+                <h1>Welcome to<br />Brain Dump</h1>
+
+                <p>
+                    Project built using React Router, reusable components,
+                    state management with useState, and custom styles.
+                </p>
+
+                <div className="home-features">
+                    <div className="feature-card">
+                        <span className="feature-icon">✦</span>
+                        <h3>Clear your mind</h3>
+                        <p>Save new activities quickly with a single click or by pressing Enter.</p>
+                    </div>
+
+                    <div className="feature-card">
+                        <span className="feature-icon">◈</span>
+                        <h3>Focus mode</h3>
+                        <p>Easily manage your list by removing items you no longer need.</p>
+                    </div>
+
+                    <div className="feature-card">
+                        <span className="feature-icon">◎</span>
+                        <h3>Smart interface</h3>
+                        <p>A well-organized, professional interface with animations and visual effects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default Home;
