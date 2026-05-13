@@ -1,23 +1,22 @@
-<h1 align="center">📃 Task Manager App ☑️</h1>
+<h1 align="center"> Brain Dump 📆  </h1>
 
 ---
 
 <p align="left">
-Interactive task management application developed with React and React Router.
-This project was created to practice component-based architecture, client-side routing, state management, and modern UI design principles.
+Modern productivity web application built with React Router to organize ideas, tasks, and daily activities in a clean and interactive way.
 </p>
 
-## 💠 Features
+## 🌀  Features
 
-* Dynamic task creation
-* Task deletion functionality
-* Automatic input reset after saving
-* Navigation using React Router
-* Responsive and modern interface
-* CSS animations and visual improvements
-* Organized project structure
+- Dynamic navigation with React Router
+- Task management using useState
+- Modern and responsive interface
+- Interactive UI animations and effects
+- Reusable React components
+- Professional dark mode design
+- GitHub Pages deployment
 
-## 💠 Technologies Used
+## 🌀  Technologies Used
 
 * React
 * Vite
@@ -26,7 +25,7 @@ This project was created to practice component-based architecture, client-side r
 * CSS3
 
 
-## 💠 Live Demo
+## 🌀  Live Demo
 
 https://vall0215.github.io/TodoReactRouter/
 
