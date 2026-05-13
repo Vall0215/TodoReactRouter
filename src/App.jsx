@@ -6,12 +6,17 @@ import Layout from "./components/Layout";
 import Ejemplo from "./pages/ejemplo";
 import { childrenRouterList } from "./components/routes";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      Component: Layout,
+      children: childrenRouterList
+    }
+  ],
   {
-    Component: Layout,
-    children: childrenRouterList
+    basename: "/TodoReactRouter/"
   }
-]);
+);
 
 function App() {
   return (

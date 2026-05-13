@@ -10,11 +10,11 @@ export const childrenRouterList = [
         Component: Home,
         text: "Home"
     },
-    {
+     {
         path: "login",
         Component: Ejemplo,
         text: "Functions"
-    },
+     },
     {
         path: "Valery" ,
         Component: Valeryhernandez ,
