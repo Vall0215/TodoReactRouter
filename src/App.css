@@ -54,14 +54,10 @@ body {
   line-height: 1.65;
 }
 
-/* ─── LAYOUT ──────────────────────────────────────────── */
-
 .layout {
   min-height: 100vh;
   display: flex;
 }
-
-/* ─── SIDEBAR ─────────────────────────────────────────── */
 
 .sidebar {
   width: 220px;
@@ -156,15 +152,11 @@ body {
   height: 60%;
 }
 
-/* ─── MAIN CONTENT ────────────────────────────────────── */
-
 .main-content {
   flex: 1;
   padding: 40px 48px;
   overflow-y: auto;
 }
-
-/* ─── SHARED PAGE WRAPPERS ────────────────────────────── */
 
 .home-page,
 .todo-page {
@@ -174,8 +166,6 @@ body {
   min-height: calc(100vh - 80px);
   padding: 20px 0;
 }
-
-/* ─── BADGE ───────────────────────────────────────────── */
 
 .todo-badge {
   display: inline-flex;
@@ -207,8 +197,6 @@ body {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.5; transform: scale(0.8); }
 }
-
-/* ─── HOME CARD ───────────────────────────────────────── */
 
 .home-card {
   width: 100%;
@@ -245,8 +233,6 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-
-/* ─── FEATURE CARDS ───────────────────────────────────── */
 
 .home-features {
   display: grid;
@@ -309,8 +295,6 @@ body {
   z-index: 1;
 }
 
-/* ─── TODO HEADER ─────────────────────────────────────── */
-
 .todo-header {
   margin-bottom: 32px;
   text-align: center;
@@ -336,7 +320,6 @@ body {
   margin: 0 auto;
 }
 
-/* ─── TODO CARD ───────────────────────────────────────── */
 
 .todo-card {
   width: 100%;
@@ -350,8 +333,6 @@ body {
   box-shadow: var(--shadow-card);
   animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
-
-/* ─── INPUT ───────────────────────────────────────────── */
 
 .todo-input-container {
   display: flex;
@@ -406,8 +387,6 @@ body {
 .todo-input-container button:active {
   transform: translateY(0);
 }
-
-/* ─── STATS ───────────────────────────────────────────── */
 
 .todo-stats {
   display: flex;
@@ -465,8 +444,6 @@ body {
   text-transform: uppercase;
   color: var(--text-muted);
 }
-
-/* ─── TASKS ───────────────────────────────────────────── */
 
 .tasks-container {
   display: flex;
@@ -554,8 +531,6 @@ body {
   color: var(--text-muted);
 }
 
-/* ─── DELETE BUTTON ───────────────────────────────────── */
-
 .delete-button {
   background: transparent;
   color: var(--text-muted);
@@ -577,8 +552,6 @@ body {
   color: var(--accent-red);
 }
 
-/* ─── EMPTY STATE ─────────────────────────────────────── */
-
 .empty-state {
   border: 1px dashed var(--border);
   padding: 40px 30px;
@@ -597,8 +570,6 @@ body {
   font-size: 13.5px;
   line-height: 1.6;
 }
-
-/* ─── ANIMATIONS ──────────────────────────────────────── */
 
 @keyframes fadeUp {
   from {
@@ -636,8 +607,6 @@ body {
     padding: 0;
   }
 }
-
-/* ─── FOOTER ──────────────────────────────────────────── */
 
 .footer {
   margin-top: 60px;
@@ -721,8 +690,6 @@ body {
   color: #a78bfa;
   background: rgba(124, 58, 237, 0.08);
 }
-
-/* ─── RESPONSIVE ──────────────────────────────────────── */
 
 @media (max-width: 768px) {
   .layout {
