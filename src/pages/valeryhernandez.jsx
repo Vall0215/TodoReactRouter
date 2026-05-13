@@ -69,7 +69,7 @@ const Valeryhernandez = () => {
                     <span className="todo-badge">React Router Project</span>
                     <h1>Task Manager</h1>
                     <p>
-                        Organize your daily activities quickly and easily; here you can download
+                        Organize your daily activities quickly and easily; here you can 
                         download as many ideas as you like.
                     </p>
                 </div>
